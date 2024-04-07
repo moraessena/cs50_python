@@ -1,5 +1,10 @@
-x = float(input("what's x? "))
-y = float(input("what's y? "))
+def main():
+    x = int(input("What's X? "))
+    print("x squared is", square(x))
 
-#z = x + y # this will concatenate strings
-print(x + y)
+
+def square(x):
+    return x * x
+
+
+main()
