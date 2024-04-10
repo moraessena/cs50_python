@@ -12,5 +12,5 @@ match name:
         print("Gryffindor")
     case "Draco":
         print("Slytherin")
-    case _:
+    case _:  # acts as "default"
         print("Who??")
