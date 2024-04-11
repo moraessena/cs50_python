@@ -11,5 +11,8 @@
 # for i in [0, 1, 2]:
 #     print("meow")
 
-for i in range(0, 3):
-    print(f"{i} meow")
+# for i in range(0, 3):
+#     print(f"{i} meow")
+
+for _ in range(0, 3):
+    print("meow")
